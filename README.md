@@ -22,15 +22,13 @@ pip install Pillow
 - 按下**Detect**按鈕,此時文字會呈現紅色,代表正在辨識中,需耐心等待
 - 辨識完成後會跳出訊息視窗,按下確定後即可在中間看到辨識後的圖片
 ## 結果
-### 辨識是否成功會呈現於圖片上方
+- 辨識是否成功會呈現於圖片上方
+- 如果為擬人繪畫圖或是特徵不明顯的照片,容易辨識不出來
 <div align="center">
     <a href="./">
         <img src="./figure/fig1.PNG" width="70%"/>
     </a>
 </div>
-
-### 如果為擬人繪畫圖或是特徵不明顯的照片,容易辨識不出來
-
 <div align="center">
     <a href="./">
         <img src="./figure/fig2.PNG" width="45%"/>
