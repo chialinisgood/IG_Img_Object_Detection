@@ -6,6 +6,15 @@
 - 目前辨識類別只有**貓**.**狗**.**馬**.**鳥**
 
 ## 事前準備
+- 先安裝YOLOv7環境
+``` shell
+pip install -r requirements.txt
+```
+- 安裝GUI所需套件
+``` shell
+pip install tkinter
+pip install Pillow
+```
 
 ## 使用方法
 - 左上角新增檔案(選擇欲辨識的圖)
