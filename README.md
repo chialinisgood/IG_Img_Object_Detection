@@ -1,2 +1,4 @@
 # IG_Img_Object_Detection
-Object_Detect form images of instagram
+
+1.利用爬蟲selenium開啟Instagram,透過Hashtag搜尋關鍵字,將關鍵字的圖片下載下來
+2.使用Tkinter製作GUI介面
