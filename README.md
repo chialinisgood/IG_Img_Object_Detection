@@ -1,4 +1,4 @@
-# IG_Img_Object_Detection
+# IG圖片物件偵測
 
 ## 介紹
 - 利用爬蟲selenium開啟Instagram,透過Hashtag搜尋關鍵字,將關鍵字的圖片下載下來
