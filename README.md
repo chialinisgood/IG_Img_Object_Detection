@@ -8,7 +8,7 @@
 ## 事前準備
 - 先安裝YOLOv7環境
 ``` shell
-pip install -r requirements.txt
+pip install -r yolov7/requirements.txt
 ```
 - 安裝GUI所需套件
 ``` shell
