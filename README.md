@@ -47,6 +47,12 @@ pip install Pillow
 - 如果為擬人繪畫圖或是特徵不明顯的照片,容易辨識不出來
 <div align="center">
     <a href="./">
+        <img src="./figure/fig8.PNG" width="45%"/>
+    </a>
+    <a href="./">
+        <img src="./figure/fig9.PNG" width="45%"/>
+    </a>    
+    <a href="./">
         <img src="./figure/fig1.PNG" width="70%"/>
     </a>
 </div>
