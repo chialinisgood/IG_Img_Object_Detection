@@ -10,7 +10,7 @@
 ``` shell
 git clone https://github.com/WongKinYiu/yolov7
 cd yolov7
-pip install -r yolov7/requirements.txt
+pip install -r requirements.txt
 ```
 - 安裝GUI所需套件
 ``` shell
