@@ -6,7 +6,7 @@
 - 目前辨識類別只有**貓**.**狗**.**馬**.**鳥**
 
 ## 事前準備
-- 先安裝YOLOv7環境
+- 先安裝YOLOv7環境 https://github.com/WongKinYiu/yolov7
 ``` shell
 pip install -r yolov7/requirements.txt
 ```
