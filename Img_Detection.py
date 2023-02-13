@@ -86,8 +86,10 @@ def run_detect():
     key = class_name.get()
     keywords_dic = {'bird':14, 'cat':15, 'dog':16, 'horse':17}
     value = keywords_dic.get(key)
-    os.system(f'python yolov7/detect.py --weights yolov7/yolov7.pt --source Imgs/{key} --save-txt --classes {value}')
-  
+    # os.system(f'python yolov7/detect.py --weights yolov7/yolov7.pt --source Imgs/{key} --save-txt --classes {value}')
+    os.system(f'python yolov7/detect.py --weights yolov7/yolov7.pt --source {fatherpath} --save-txt --classes {value}')
+    # fatherpath
+    
 def detect():
     global fileindex,fatherpath,files,file_num
     run_detect()
@@ -104,6 +106,7 @@ root.title('圖片辨識結果')
 root.geometry('800x850')
 root.configure(bg='lightyellow')
 root.iconbitmap('face.ico')
+root.attributes("-topmost", True)
 
 ### result
 result = tk.StringVar()
