@@ -8,6 +8,8 @@
 ## 事前準備
 - 請先安裝YOLOv7環境 https://github.com/WongKinYiu/yolov7
 ``` shell
+git clone https://github.com/WongKinYiu/yolov7
+cd yolov7
 pip install -r yolov7/requirements.txt
 ```
 - 安裝GUI所需套件
