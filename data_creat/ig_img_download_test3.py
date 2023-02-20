@@ -26,7 +26,6 @@ class Download_IG():
             driver.quit()
 
     def web_driver(self):
-        # acounts = ["chien_pingru",'chikichikichiachia','c8763_chien']
         options = webdriver.EdgeOptions()
         options.add_experimental_option('excludeSwitches', ['enable-logging'])
         global driver
@@ -47,7 +46,6 @@ class Download_IG():
         self.waits_web_login(By.XPATH,"//button[text()='稍後再說']").click()
         self.waits_web_login(By.XPATH,"//button[text()='稍後再說']").click()
         folderpath = self.save_dir
-        # keywords = ["#比基尼",'#泳裝','#比基尼泳裝']
         keywords_dic = {'cat':["#貓",'#貓咪','#貓奴','#cat'],'dog':["#狗",'#狗狗','#狗奴','#dog'],
                         'bird':["#鳥",'#小鳥','#寵物鳥','#bird'],'horse':["#馬",'#小馬','#horse', '#pony']}
         keywords = keywords_dic.get(self.cate)
